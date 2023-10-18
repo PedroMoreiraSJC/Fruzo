@@ -1,0 +1,317 @@
+* {
+  /* Margem*/
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  /* background-color: rgba(255, 255, 255, 0.2); */
+  background-color: #a1a1a1;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+
+}
+
+.NavSuperior {
+  /* Header */
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 124px;
+}
+
+header .fruzzo {
+  padding: 56px;
+}
+
+li:hover {
+
+  cursor: pointer;
+  opacity: 0.7;
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 5px;
+
+}
+
+.NavLateral {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: absolute;
+  /* Posicionamento absoluto */
+  left: 0;
+  /* Colado na lateral esquerda */
+  top: 50%;
+  /* Centralizado verticalmente */
+  transform: translateY(-50%);
+  /* Ajuste para centralização vertical */
+  margin-left: 10px;
+  /* Espaçamento à esquerda para não ficar exatamente colado na borda */
+}
+
+.NavLateral a {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 10px;
+
+}
+
+.NavLateral a:hover {
+  opacity: 0.7;
+  background-color: rgba(54, 51, 51, 0.2);
+  padding: 5px;
+}
+
+a:visited {
+  color: rgb(224, 16, 16);
+}
+
+li a {
+  text-decoration: none;
+
+}
+
+p {
+  text-align: center;
+  font-size: 22px;
+  padding-top: 32px;
+}
+
+p:hover {
+  box-shadow: color pink;
+  cursor: pointer;
+}
+
+img:hover {
+  opacity: 0.7;
+  transform: scale(0.9);
+}
+
+img {
+  /* Para garantir que a imagem não exceda a largura da tela */
+  cursor: pointer;
+  transition: 0.35s;
+  overflow: auto;
+}
+
+.imagem-1 {
+  /* Imagem pacote com 1 unidade*/
+  width: 195px;
+  height: 187px;
+  margin-top: 78px;
+
+  align-items: center;
+
+  border-top: solid 2px white;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  border-left: solid 2px white;
+  /* faz uma borda em torno da imagem
+     border  */
+
+  border-radius: 10px;
+  /* faz um círculo
+    border-radius: 100%;  */
+
+}
+
+.imagem-2 {
+  /* Imagem pacote com 2 unidades*/
+  width: 195px;
+  height: 190px;
+
+  align-items: center;
+
+  border-top: solid 2px white;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  border-left: solid 2px white;
+  /* faz uma borda em torno da imagem
+     border  */
+
+  border-radius: 10px;
+  /* faz um círculo
+    border-radius: 100%;  */
+}
+
+.imagem-3 {
+  /* Imagem pacote com 3 unidades*/
+  width: 195px;
+  height: 170px;
+
+  align-items: center;
+
+  border-top: solid 2px white;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  border-left: solid 2px white;
+  /* faz uma borda em torno da imagem
+     border  */
+
+  border-radius: 10px;
+  /* faz um círculo
+    border-radius: 100%;  */
+}
+
+.imagem-9 {
+  /* Imagem pacote com 9 unidades*/
+  width: 195px;
+  height: 180px;
+
+  align-items: center;
+
+  border-top: solid 2px white;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  border-left: solid 2px white;
+  /* faz uma borda em torno da imagem
+     border  */
+
+  border-radius: 10px;
+  /* faz um círculo
+    border-radius: 100%;  */
+}
+
+.imagem-12 {
+  /* Imagem pacote com 12 unidades*/
+  width: 195px;
+  height: 180px;
+
+  align-items: center;
+
+  border-top: solid 2px white;
+  border-right: solid 2px white;
+  border-bottom: solid 2px white;
+  border-left: solid 2px white;
+  /* faz uma borda em torno da imagem
+     border  */
+
+  border-radius: 10px;
+  /* faz um círculo
+    border-radius: 100%;  */
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+#botao {
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  border-top: solid 2px white;
+  border-right: solid 10px white;
+  border-bottom: solid 2px white;
+  border-left: solid 10px white;
+  width: 50px;
+
+  border-radius: 10px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+
+  box-shadow: 1px 3px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+#botao:active {
+  transform: scale(1.2);
+}
+
+#botao {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  overflow: hidden;
+}
+
+footer {
+  width: 100%;
+}
+
+.footer-link {
+  text-decoration: none;
+}
+
+#footer-content {
+  background-color: #6b6969;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 3rem 3.5rem;
+}
+
+#footer-contato h1 {
+  margin-top: 0.75rem;
+  font-size: 26px;
+  text-align: start;
+  color: #fdf7f7;
+}
+
+#footer-social-media {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+
+#footer-social-media .footer-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  color: #fdf7f7;
+  border-radius: 50%;
+  transition: all 0.4s;
+}
+
+#footer-social-media .footer-link i {
+  font-size: 1.25rem;
+}
+
+#footer-social-media .footer-link:hover {
+  opacity: 0.8;
+  cursor: pointer;
+
+}
+
+#whatsapp {
+  background-color: #25d366;
+}
+
+#facebook {
+  background-color: #4267b3;
+}
+
+
+@media screen and (max-width: 768px) {
+  #footer-content {
+    grid-template-columns: repeat(2 1fr);
+    gap: 2rem;
+  }
+
+  @media screen and (min-width: 340px) {
+    #footer-content {
+      grid-template-columns: repeat(1 1fr);
+      padding: 3rem 2rem;
+    }
+  }
+
+}
+
+#pesquisa {
+  /* Input */
+  text-align: center;
+  font-size: 16px;
+  color: #080707;
+  width: 400px;
+  border: 10px, #080707;
+  border-radius: 5px;
+}
