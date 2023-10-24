@@ -5,36 +5,36 @@ botao.addEventListener("click", function () {
 });
 
 
-let inputSuco = document.getElementById("pesquisa");
-let btnSuco = document.getElementById("btn-Suco");
+// let inputSuco = document.getElementById("pesquisa");
+// let btnSuco = document.getElementById("btn-Suco");
 
-btnSuco.onclick = () => {
-    if (inputSuco.value == "laranja")
-        document.getElementById("suco-Maca").style.display = "none";
-    document.getElementById("suco-Morango").style.display = "none";
-    document.getElementById("suco-Abacaxi").style.display = "none";
+// btnSuco.onclick = () => {
+//     if (inputSuco.value == "laranja")
+//         document.getElementById("suco-Maca").style.display = "none";
+//     document.getElementById("suco-Morango").style.display = "none";
+//     document.getElementById("suco-Abacaxi").style.display = "none";
 
-    document.getElementById("suco-Laranja").style.display = "block";
+//     document.getElementById("suco-Laranja").style.display = "block";
 
-    if (inputSuco.value == "morango")
-        document.getElementById("suco-Maca").style.display = "none";
-    document.getElementById("suco-Abacaxi").style.display = "none";
-    document.getElementById("suco-Laranja").style.display = "none";
+//     if (inputSuco.value == "morango")
+//         document.getElementById("suco-Maca").style.display = "none";
+//     document.getElementById("suco-Abacaxi").style.display = "none";
+//     document.getElementById("suco-Laranja").style.display = "none";
 
-    document.getElementById("suco-Morango").style.display = "block";
+//     document.getElementById("suco-Morango").style.display = "block";
 
-    if (inputSuco.value == "maca")
-        document.getElementById("suco-Abacaxi").style.display = "none";
-    document.getElementById("suco-Morango").style.display = "none";
-    document.getElementById("suco-Laranja").style.display = "none";
+//     if (inputSuco.value == "maca")
+//         document.getElementById("suco-Abacaxi").style.display = "none";
+//     document.getElementById("suco-Morango").style.display = "none";
+//     document.getElementById("suco-Laranja").style.display = "none";
 
-    document.getElementById("suco-Maca").style.display = "block";
+//     document.getElementById("suco-Maca").style.display = "block";
 
-    if (inputSuco.value == "abacaxi")
-        document.getElementById("suco-Maca").style.display = "none";
-    document.getElementById("suco-Morango").style.display = "none";
-    document.getElementById("suco-Laranja").style.display = "none";
-    
-    document.getElementById("suco-Abacaxi").style.display = "block";
+//     if (inputSuco.value == "abacaxi")
+//         document.getElementById("suco-Maca").style.display = "none";
+//     document.getElementById("suco-Morango").style.display = "none";
+//     document.getElementById("suco-Laranja").style.display = "none";
 
-}
+//     document.getElementById("suco-Abacaxi").style.display = "block";
+
+// }
