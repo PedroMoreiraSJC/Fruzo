@@ -1,47 +1,40 @@
 
-const botao = document.getElementById("meuBotao");
+const botao = document.getElementById("alerta-botao");
 botao.addEventListener("click", function () {
-    alert("Entre em contato pelo nosso WhatsApp, temos desconto de 5%!");
+    alert("Para mais informações, Entre em contato pelo nosso WhatsApp, !");
 });
 
 
+let inputSuco = document.getElementById("pesquisa");
+let btnSuco = document.getElementById("btn-Suco");
 
-// let fruits;
+btnSuco.onclick = () => {
+    if (inputSuco.value == "laranja")
+        document.getElementById("suco-Maca").style.display = "none";
+    document.getElementById("suco-Morango").style.display = "none";
+    document.getElementById("suco-Abacaxi").style.display = "none";
 
-// fetch('https://www.fruityvice.com/')
-//     .then(response => response.json())
-//     .then(data => exibir(data))
+    document.getElementById("suco-Laranja").style.display = "block";
 
-// function exibir(dados) {
-//     fruits = dados
-//     console.log(fruits)
-// }
+    if (inputSuco.value == "morango")
+        document.getElementById("suco-Maca").style.display = "none";
+    document.getElementById("suco-Abacaxi").style.display = "none";
+    document.getElementById("suco-Laranja").style.display = "none";
 
+    document.getElementById("suco-Morango").style.display = "block";
 
+    if (inputSuco.value == "maca")
+        document.getElementById("suco-Abacaxi").style.display = "none";
+    document.getElementById("suco-Morango").style.display = "none";
+    document.getElementById("suco-Laranja").style.display = "none";
 
-// Atividade CEP
-let buscarCep = document.getElementById("buscarCep");
+    document.getElementById("suco-Maca").style.display = "block";
 
-buscarCep.onclick = () => {
-    let cep = document.getElementById("cep").value;
+    if (inputSuco.value == "abacaxi")
+        document.getElementById("suco-Maca").style.display = "none";
+    document.getElementById("suco-Morango").style.display = "none";
+    document.getElementById("suco-Laranja").style.display = "none";
+    
+    document.getElementById("suco-Abacaxi").style.display = "block";
 
-    if (cep.length != 8) {
-        alert("O CEP precisa ter 8 digitos.")
-    } else {
-        fetch(`https://viacep.com.br/ws/${cep}/json/`)
-            .then(response => response.json())
-            .then(response => exibirInformacoesNaTela(response))
-    }
-}
-
-function exibirInformacoesNaTela(informacao) {
-    let rua = document.getElementById("rua");
-    let bairro = document.getElementById("bairro");
-    let cidade = document.getElementById("cidade");
-    let estado = document.getElementById("estado");
-
-    rua.value = informacao.logradouro;
-    bairro.value = informacao.bairro; ( peso , quantidade, categoria , valor)
-    cidade.value = informacao.localidade;
-    estado.value = informacao.uf;
 }

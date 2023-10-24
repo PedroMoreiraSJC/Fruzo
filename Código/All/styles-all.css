@@ -244,8 +244,8 @@ footer {
 #footer-content {
   background-color: #6b6969;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 3rem 3.5rem;
+  grid-template-columns: repeat(1, 0.5fr);
+  padding: 1.5rem 2rem;
 }
 
 #footer-contato h1 {
@@ -257,8 +257,8 @@ footer {
 
 #footer-social-media {
   display: flex;
-  gap: 2rem;
-  margin-top: 1.5rem;
+  gap: 1rem;
+  margin-top: 0.75rem;
 }
 
 #footer-social-media .footer-link {
@@ -281,7 +281,42 @@ footer {
   cursor: pointer;
 
 }
+#alerta-botao{ /*Botao de alerta*/
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  border-top: solid 2px white;
+  border-right: solid 36px white;
+  border-bottom: solid 2px white;
+  border-left: solid 36px white;
+  width: 158px;
 
+  border-radius: 10px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+
+  cursor: pointer;
+}
+#btn-Suco{
+  text-align: center;
+  font-size: 16px;
+  color: #080707;
+  width: 136px;
+  height: 56px;
+  border: 5px, #080707;
+  border-radius: 5px;
+}
+
+#pesquisa {
+  /* Input footer*/
+  text-align: center;
+  font-size: 16px;
+  color: #080707;
+  width: 400px;
+  height: 56px;
+  border: 5px, #080707;
+  border-radius: 5px;
+}
 #whatsapp {
   background-color: #25d366;
 }
@@ -293,25 +328,15 @@ footer {
 
 @media screen and (max-width: 768px) {
   #footer-content {
-    grid-template-columns: repeat(2 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(1 0.5fr);
+    gap: 1rem;
   }
 
   @media screen and (min-width: 340px) {
     #footer-content {
-      grid-template-columns: repeat(1 1fr);
-      padding: 3rem 2rem;
+      grid-template-columns: repeat(0.5 0.5fr);
+      padding: 1.5rem 1rem;
     }
   }
 
-}
-
-#pesquisa {
-  /* Input */
-  text-align: center;
-  font-size: 16px;
-  color: #080707;
-  width: 400px;
-  border: 10px, #080707;
-  border-radius: 5px;
 }
