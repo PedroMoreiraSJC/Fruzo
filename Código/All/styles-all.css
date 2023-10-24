@@ -244,8 +244,8 @@ footer {
 #footer-content {
   background-color: #6b6969;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  padding: 3rem 3.5rem;
+  grid-template-columns: repeat(1, 0.5fr);
+  padding: 1.5rem 2rem;
 }
 
 #footer-contato h1 {
@@ -257,8 +257,8 @@ footer {
 
 #footer-social-media {
   display: flex;
-  gap: 2rem;
-  margin-top: 1.5rem;
+  gap: 1rem;
+  margin-top: 0.75rem;
 }
 
 #footer-social-media .footer-link {
@@ -281,7 +281,7 @@ footer {
   cursor: pointer;
 
 }
-#meuBotao{
+#alerta-botao{ /*Botao de alerta*/
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
   background-color: white;
@@ -297,14 +297,24 @@ footer {
 
   cursor: pointer;
 }
+#btn-Suco{
+  text-align: center;
+  font-size: 16px;
+  color: #080707;
+  width: 136px;
+  height: 56px;
+  border: 5px, #080707;
+  border-radius: 5px;
+}
 
 #pesquisa {
-  /* Input */
+  /* Input footer*/
   text-align: center;
   font-size: 16px;
   color: #080707;
   width: 400px;
-  border: 10px, #080707;
+  height: 56px;
+  border: 5px, #080707;
   border-radius: 5px;
 }
 #whatsapp {
@@ -318,14 +328,14 @@ footer {
 
 @media screen and (max-width: 768px) {
   #footer-content {
-    grid-template-columns: repeat(2 1fr);
-    gap: 2rem;
+    grid-template-columns: repeat(1 0.5fr);
+    gap: 1rem;
   }
 
   @media screen and (min-width: 340px) {
     #footer-content {
-      grid-template-columns: repeat(1 1fr);
-      padding: 3rem 2rem;
+      grid-template-columns: repeat(0.5 0.5fr);
+      padding: 1.5rem 1rem;
     }
   }
 
