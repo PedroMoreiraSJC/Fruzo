@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .frame-sucos-morango01-frame-sucos-morango01 {
   width: 100%;
   height: 1003px;
@@ -16,6 +17,7 @@
   flex-shrink: 0;
   background-color: #C7C7C7;
 }
+
 .frame-sucos-morango01-bg {
   top: 0px;
   left: 0px;
@@ -30,6 +32,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
+
 .frame-sucos-morango01-fruzo {
   top: 0px;
   left: 0px;
@@ -41,6 +44,7 @@
   position: absolute;
   box-sizing: content-box;
 }
+
 .frame-sucos-morango01-mockup-morango {
   top: 0px;
   left: 0px;
@@ -51,6 +55,7 @@
   margin: auto;
   position: absolute;
 }
+
 .frame-sucos-morango01-setas {
   right: var(--dl-space-space-threeunits);
   width: 94px;
@@ -58,6 +63,7 @@
   height: 41px;
   position: absolute;
 }
+
 .frame-sucos-morango01-navinferior {
   left: 0px;
   right: 0px;
@@ -71,6 +77,7 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
+
 .frame-sucos-morango01-quantidade {
   top: 74px;
   left: 0px;
@@ -85,6 +92,7 @@
   border-radius: 15px;
   background-color: rgba(255, 255, 255, 1);
 }
+
 .frame-sucos-morango01-text {
   top: 6px;
   color: rgba(0, 0, 0, 1);
@@ -100,6 +108,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .frame-sucos-morango01-svg {
   top: 12px;
   left: 111px;
@@ -108,6 +117,7 @@
   position: absolute;
   box-sizing: content-box;
 }
+
 .frame-sucos-morango01-cima {
   top: 10px;
   left: 80px;
@@ -115,6 +125,7 @@
   height: 13px;
   position: absolute;
 }
+
 .frame-sucos-morango01-baixo {
   top: 40px;
   left: 95px;
@@ -122,6 +133,7 @@
   height: 13px;
   position: absolute;
 }
+
 .frame-sucos-morango01-text2 {
   color: rgba(255, 255, 255, 1);
   height: auto;
@@ -135,6 +147,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .frame-sucos-morango01-navlateral {
   top: 0px;
   left: 0px;
@@ -143,23 +156,28 @@
   height: 171px;
   margin: auto;
   display: grid;
-  grid-template-columns: 1fr; /* Uma única coluna */
-  grid-template-rows: repeat(3, 1fr); /* Três linhas de tamanho igual */
-  gap: 10px; /* Espaçamento entre os itens do grid */
+  grid-template-columns: 1fr;
+  /* Uma única coluna */
+  grid-template-rows: repeat(3, 1fr);
+  /* Três linhas de tamanho igual */
+  gap: 10px;
+  /* Espaçamento entre os itens do grid */
   position: absolute;
   align-items: center;
   flex-shrink: 0;
   justify-content: flex-start;
-  }
+}
 
 .frame-sucos-morango01-tudo {
-  grid-row: 1 / 2; /* Primeira linha */
+  grid-row: 1 / 2;
+  /* Primeira linha */
   top: 118px;
   left: 0px;
   width: 117px;
   height: 53px;
   display: flex;
-  position: static; /* Remove o posicionamento absoluto */
+  position: static;
+  /* Remove o posicionamento absoluto */
   top: auto;
   left: auto;
   width: auto;
@@ -171,6 +189,7 @@
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
 .frame-sucos-morango01-text4 {
   top: 0px;
   left: 15.013274192810059px;
@@ -179,7 +198,8 @@
   bottom: 0px;
   height: auto;
   margin: auto;
-  position: static; /* Remove o posicionamento absoluto */
+  position: static;
+  /* Remove o posicionamento absoluto */
   top: auto;
   left: auto;
   width: auto;
@@ -193,14 +213,17 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .frame-sucos-morango01-sobre {
-  grid-row: 2 / 3; /* Primeira linha */
+  grid-row: 2 / 3;
+  /* Primeira linha */
   top: 59px;
   left: 0px;
   width: 117px;
   height: 53px;
   display: flex;
-  position: static; /* Remove o posicionamento absoluto */
+  position: static;
+  /* Remove o posicionamento absoluto */
   top: auto;
   left: auto;
   width: auto;
@@ -212,6 +235,7 @@
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
 .frame-sucos-morango01-text6 {
   top: 0px;
   left: 15.013274192810059px;
@@ -220,7 +244,8 @@
   bottom: 0px;
   height: auto;
   margin: auto;
-  position: static; /* Remove o posicionamento absoluto */
+  position: static;
+  /* Remove o posicionamento absoluto */
   top: auto;
   left: auto;
   width: auto;
@@ -234,14 +259,17 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 .frame-sucos-morango01-sucos {
-  grid-row: 3 / 4; /* Terceira linha */
+  grid-row: 3 / 4;
+  /* Terceira linha */
   top: 0px;
   left: 0px;
   width: 168px;
   height: 53px;
   display: flex;
-  position: static; /* Remove o posicionamento absoluto */
+  position: static;
+  /* Remove o posicionamento absoluto */
   top: auto;
   left: auto;
   width: auto;
@@ -253,6 +281,7 @@
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
 }
+
 .frame-sucos-morango01-text7 {
   top: 0px;
   left: 21.55752182006836px;
@@ -261,7 +290,8 @@
   bottom: 0px;
   height: auto;
   margin: auto;
-  position: static; /* Remove o posicionamento absoluto */
+  position: static;
+  /* Remove o posicionamento absoluto */
   top: auto;
   left: auto;
   width: auto;
@@ -275,6 +305,7 @@
   font-stretch: normal;
   text-decoration: none;
 }
+
 /* .frame-sucos-morango01-carrinho {
   top: var(--dl-space-space-threeunits);
   right: var(--dl-space-space-threeunits);
@@ -298,6 +329,120 @@
   background-color: rgba(54, 51, 51, 0.2);
   padding: 5px;
 }
+
+:root {
+  --dl-color-gray-500: #595959;
+  --dl-color-gray-700: #999999;
+  --dl-color-gray-900: #D9D9D9;
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-danger-300: #A22020;
+  --dl-color-danger-500: #BF2626;
+  --dl-color-danger-700: #E14747;
+  --dl-color-gray-black: #000000;
+  --dl-color-gray-white: #FFFFFF;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-color-primary-100: #003EB3;
+  --dl-color-primary-300: #0074F0;
+  --dl-color-primary-500: #14A9FF;
+  --dl-color-primary-700: #85DCFF;
+  --dl-color-success-300: #199033;
+  --dl-color-success-500: #32A94C;
+  --dl-color-success-700: #4CC366;
+  --dl-size-size-xxlarge: 288px;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-space-space-threeunits: 48px;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+
+.button {
+  color: var(--dl-color-gray-black);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+
+.input {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+
+.textarea {
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-gray-white);
+}
+
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+
+.list-item {
+  display: list-item;
+}
+
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+
+.Content {
+  font-size: 16px;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
+
+.frame-sucos-morango01-navlateral {
+  cursor: pointer;
+}
+
+.frame-sucos-morango01-navlateral a:hover {
+  opacity: 0.7;
+  background-color: white;
+  padding: 5px;
+}
+
 
 a:visited {
   color: #daa520;

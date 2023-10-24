@@ -281,7 +281,32 @@ footer {
   cursor: pointer;
 
 }
+#meuBotao{
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  border-top: solid 2px white;
+  border-right: solid 36px white;
+  border-bottom: solid 2px white;
+  border-left: solid 36px white;
+  width: 158px;
 
+  border-radius: 10px;
+  margin-left: 70px;
+  margin-bottom: 30px;
+
+  cursor: pointer;
+}
+
+#pesquisa {
+  /* Input */
+  text-align: center;
+  font-size: 16px;
+  color: #080707;
+  width: 400px;
+  border: 10px, #080707;
+  border-radius: 5px;
+}
 #whatsapp {
   background-color: #25d366;
 }
@@ -304,14 +329,4 @@ footer {
     }
   }
 
-}
-
-#pesquisa {
-  /* Input */
-  text-align: center;
-  font-size: 16px;
-  color: #080707;
-  width: 400px;
-  border: 10px, #080707;
-  border-radius: 5px;
 }
