@@ -101,8 +101,8 @@ footer {
 #footer-content {
     background-color: #6b6969;
     display: grid;
-    grid-template-columns: repeat(0.75, 0.5fr);
-    padding: 1rem 2rem;
+    grid-template-columns: repeat(1, 0.5fr);
+    padding: 1.5rem 2rem;
 }
 
 #footer-contato h1 {
@@ -136,6 +136,45 @@ footer {
 #footer-social-media .footer-link:hover {
     opacity: 0.8;
     cursor: pointer;
+
+}
+
+#alerta-botao {
+    /Botao de alerta/ font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-top: solid 2px white;
+    border-right: solid 36px white;
+    border-bottom: solid 2px white;
+    border-left: solid 36px white;
+    width: 158px;
+
+    border-radius: 10px;
+    margin-left: 70px;
+    margin-bottom: 30px;
+
+    cursor: pointer;
+}
+
+#btn-Suco {
+    text-align: center;
+    font-size: 16px;
+    color: #080707;
+    width: 136px;
+    height: 56px;
+    border: 5px, #080707;
+    border-radius: 5px;
+}
+
+#pesquisa {
+    /* Input footer*/
+    text-align: center;
+    font-size: 16px;
+    color: #080707;
+    width: 400px;
+    height: 56px;
+    border: 5px, #080707;
+    border-radius: 5px;
 }
 
 #whatsapp {
@@ -146,30 +185,32 @@ footer {
     background-color: #4267b3;
 }
 
+
 @media screen and (max-width: 768px) {
     #footer-content {
-        grid-template-columns: repeat(1, 0.75rem);
-        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
 }
 
 @media screen and (min-width: 426px) {
     #footer-content {
-        grid-template-columns: repeat(0.5, 0.5fr);
-        padding: 1.5rem 1rem;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
     }
 }
 
 @media screen and (max-width: 768px) {
     .container {
-        grid-template-columns: repeat(1, 0.5fr);
-        gap: 1rem;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
     }
 
     @media screen and (min-width: 426px) {
         .container {
-            grid-template-columns: repeat(0.5, 0.5fr);
-            padding: 1.5rem 1rem;
+            grid-template-columns: repeat(1, 1fr);
+            padding: 3rem 2rem;
         }
     }
+
 }
