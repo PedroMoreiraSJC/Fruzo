@@ -101,8 +101,8 @@ footer {
 #footer-content {
     background-color: #6b6969;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 3rem 3.5rem;
+    grid-template-columns: repeat(0.75, 0.5fr);
+    padding: 1rem 2rem;
 }
 
 #footer-contato h1 {
@@ -114,8 +114,8 @@ footer {
 
 #footer-social-media {
     display: flex;
-    gap: 2rem;
-    margin-top: 1.5rem;
+    gap: 1rem;
+    margin-top: 0.75rem;
 }
 
 #footer-social-media .footer-link {
@@ -148,28 +148,28 @@ footer {
 
 @media screen and (max-width: 768px) {
     #footer-content {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        grid-template-columns: repeat(1, 0.75rem);
+        gap: 1rem;
     }
 }
 
 @media screen and (min-width: 426px) {
     #footer-content {
-        grid-template-columns: repeat(1, 1fr);
-        padding: 3rem 2rem;
+        grid-template-columns: repeat(0.5, 0.5fr);
+        padding: 1.5rem 1rem;
     }
 }
 
 @media screen and (max-width: 768px) {
     .container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 2rem;
+        grid-template-columns: repeat(1, 0.5fr);
+        gap: 1rem;
     }
 
     @media screen and (min-width: 426px) {
         .container {
-            grid-template-columns: repeat(1, 1fr);
-            padding: 3rem 2rem;
+            grid-template-columns: repeat(0.5, 0.5fr);
+            padding: 1.5rem 1rem;
         }
     }
 }
