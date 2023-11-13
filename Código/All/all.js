@@ -1,40 +1,32 @@
 
 const botao = document.getElementById("alerta-botao");
 botao.addEventListener("click", function () {
-    alert("Para mais informações, Entre em contato pelo nosso WhatsApp, !");
+    alert("Para mais informações, Entre em contato pelo nosso WhatsApp, ou clique no botão 2 !");
 });
 
 
-// let inputSuco = document.getElementById("pesquisa");
-// let btnSuco = document.getElementById("btn-Suco");
+// script.js
+const botoes = document.querySelectorAll('.botao');
+const textosHover = document.querySelectorAll('.texto-hover');
 
-// btnSuco.onclick = () => {
-//     if (inputSuco.value == "laranja")
-//         document.getElementById("suco-Maca").style.display = "none";
-//     document.getElementById("suco-Morango").style.display = "none";
-//     document.getElementById("suco-Abacaxi").style.display = "none";
+botoes.forEach((botao, index) => {
+    botao.addEventListener('click', () => {
+        const textoDiv = textosHover[index];
+        const isVisible = textoDiv.style.display === 'block';
 
-//     document.getElementById("suco-Laranja").style.display = "block";
+        textosHover.forEach(texto => {
+            texto.style.display = 'none'; // Oculta todos os textos
+        });
 
-//     if (inputSuco.value == "morango")
-//         document.getElementById("suco-Maca").style.display = "none";
-//     document.getElementById("suco-Abacaxi").style.display = "none";
-//     document.getElementById("suco-Laranja").style.display = "none";
+        if (!isVisible) {
+            const container = botoes[index].parentNode;
+            const imageDiv = container.querySelector('.imagem-2');
+            const imageBounding = imageDiv.getBoundingClientRect();
 
-//     document.getElementById("suco-Morango").style.display = "block";
+            textoDiv.style.display = 'block'; // Exibe o texto correspondente
+            textoDiv.style.width = `${imageBounding.width}px`;
+            textoDiv.style.height = `${imageBounding.height}px`;
+        }
+    });
+});
 
-//     if (inputSuco.value == "maca")
-//         document.getElementById("suco-Abacaxi").style.display = "none";
-//     document.getElementById("suco-Morango").style.display = "none";
-//     document.getElementById("suco-Laranja").style.display = "none";
-
-//     document.getElementById("suco-Maca").style.display = "block";
-
-//     if (inputSuco.value == "abacaxi")
-//         document.getElementById("suco-Maca").style.display = "none";
-//     document.getElementById("suco-Morango").style.display = "none";
-//     document.getElementById("suco-Laranja").style.display = "none";
-
-//     document.getElementById("suco-Abacaxi").style.display = "block";
-
-// }
