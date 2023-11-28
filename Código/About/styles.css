@@ -212,28 +212,28 @@ footer {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1600px) {
     #footer-content {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
 }
 
-@media screen and (min-width: 426px) {
+@media screen and (min-width: 144px) {
     #footer-content {
         grid-template-columns: repeat(1, 1fr);
         padding: 3rem 2rem;
     }
 }
 
-@media screen and (max-width: 768px) {
-    .container {
+@media screen and (max-width: 1600px) {
+    body {
         grid-template-columns: repeat(2, 1fr);
         gap: 2rem;
     }
 
-    @media screen and (min-width: 426px) {
-        .container {
+    @media screen and (min-width: 144px) {
+        body {
             grid-template-columns: repeat(1, 1fr);
             padding: 3rem 2rem;
         }

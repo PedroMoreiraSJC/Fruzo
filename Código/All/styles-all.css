@@ -350,43 +350,8 @@ footer {
   border-radius: 5px;
 }
 
-#pesquisa {
-  /* Input footer*/
-  text-align: center;
-  font-size: 16px;
-  color: #080707;
-  width: 400px;
-  height: 56px;
-  border: 5px, #080707;
-  border-radius: 5px;
-}
 
-#whatsapp {
-  background-color: #25d366;
-}
-
-#facebook {
-  background-color: #4267b3;
-}
-
-
-@media screen and (max-width: 768px) {
-  #footer-content {
-    grid-template-columns: repeat(1 0.5fr);
-    gap: 1rem;
-  }
-
-  @media screen and (min-width: 340px) {
-    #footer-content {
-      grid-template-columns: repeat(0.5 0.5fr);
-      padding: 1.5rem 1rem;
-    }
-  }
-
-}
-
-
-
+/* Outras variaveis dos botoes*/
 #botao {
   font-size: 14px;
   font-family: Arial, Helvetica, sans-serif;
@@ -416,3 +381,39 @@ footer {
   align-items: center;
   overflow: hidden;
 }
+
+#pesquisa {
+  /* Input footer*/
+  text-align: center;
+  font-size: 16px;
+  color: #080707;
+  width: 400px;
+  height: 56px;
+  border: 5px, #080707;
+  border-radius: 5px;
+}
+
+#whatsapp {
+  background-color: #25d366;
+}
+
+#facebook {
+  background-color: #4267b3;
+}
+
+
+@media screen and (max-width: 1600px) {
+  #footer-content {
+    grid-template-columns: repeat(1 0.5fr);
+    gap: 1rem;
+  }
+
+  @media screen and (min-width: 144px) {
+    #footer-content {
+      grid-template-columns: repeat(0.5 0.5fr);
+      padding: 1.5rem 1rem;
+    }
+  }
+
+}
+
